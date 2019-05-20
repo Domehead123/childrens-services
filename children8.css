@@ -1,0 +1,102 @@
+body {
+max-width: 871px;
+}
+
+
+.priority-row {
+    transition: 0.6s all;
+ 
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding: 15px;
+    display: flex;
+   
+}
+
+
+h2 { margin-top: 0px;}
+
+
+.priority {
+    display: inline-block;
+   min-width: 140px;
+height: 140px;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 30px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    
+    
+}
+
+
+
+
+.priority-details {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+
+   
+}
+
+
+
+.priority-1 .priority-details{
+    border-left: none;
+}
+
+
+
+.priority-1 .priority{
+    background-color: red;
+       color: #fff;
+}
+
+.priority-2 .priority{
+    background-color: orange;
+       color: #000;
+}
+
+.priority-3  .priority{
+    background-color: #777;
+    color: #fff;
+}
+
+
+.priority-1:hover .priority {
+     box-shadow: 0 0 30px red;
+}
+
+.priority-2:hover .priority {
+     box-shadow: 0 0 30px orange;
+}
+
+.priority-3:hover .priority {
+     box-shadow: 0 0 30px black;
+}
+
+
+.button-container {
+    margin-top: 50px;
+}
+
+button {
+    font-size: 1.5em;
+    margin-right: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .priority {
+    
+  
+      min-width: 50px;
+height: 50px;
+padding: 10px;
+ font-size: 0.8em;
+}
+
+}
+
